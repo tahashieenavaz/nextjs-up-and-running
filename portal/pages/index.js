@@ -5,10 +5,12 @@ export default function Home() {
     <div>
         <Head>
             <title>
-                Taha Shieenavaz - {Math.random()}
+                Taha Shieenavaz
             </title>
         </Head>
-        <h1>Hello to our Next App!</h1>
+        <h1>
+            Designed and developed by Taha Shieenavaz
+        </h1>
     </div>
   )
 }
