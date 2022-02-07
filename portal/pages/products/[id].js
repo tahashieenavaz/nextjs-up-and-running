@@ -5,7 +5,8 @@ const Product = ( {name, rating,discounted, price, image,description} ) => {
     return (
         <>
             <Head>
-                <title>Taha || {name}</title>
+                <title>Taha Shieenavaz || {name}</title>
+                <meta name="description" content={description} />
             </Head>
             <div className='shadow-2xl rounded-xl bg-white flex flex-col lg:flex-row' style={ {width: 'min(85%, 1200px)', margin: '0 auto'}}>
                 <div
